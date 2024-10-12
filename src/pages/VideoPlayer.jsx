@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router';
-import Comments from '../components/Comments.jsx';
+import Comments from '../components/comments';
 import { dislike, fetchSuccess, like } from '../utils/videoPlayerSlice';
 import { PiShareFat } from "react-icons/pi";
 import { TfiDownload } from "react-icons/tfi";
