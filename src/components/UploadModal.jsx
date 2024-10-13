@@ -93,7 +93,7 @@ export default function uploadModal() {
       headers: {
         'Content-Type': 'application/json',
       },
-      // credentials: 'include',
+      credentials: 'include',
       body: JSON.stringify({...inputs,tags})
     });
 
